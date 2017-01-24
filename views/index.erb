@@ -1,10 +1,24 @@
-<h1>Hello</h1>
-<p>Please enter the website you would like to find twitter profile for:</p>
-<form action="/getlinks">
-  <input type="text" name="link_input">
-  <input type="submit" value="Submit">
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Server</title>
+</head>
+<body>
+  <h1>Hello</h1>
+    <p>Please enter the website you would like to find twitter profile for</p>
+      <form action="/getlinks">
+        <input type="text" name="link_input">
+        <input type="submit" value="Submit">
+      </form>
 
-<!-- <h2>Result</h2>
-<%= result %>
-<% end %> -->
+  <h2>Result</h2>
+    <ul>
+      <% result.each do |link| %>
+        <%= link %>
+      <% end %>
+    </ul>
+</body>
+</html>
+
+
