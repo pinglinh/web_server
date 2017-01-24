@@ -20,7 +20,7 @@ This server uses Sinatra which is a simple web server gem for Ruby. It
 4. Go to your browser and type the below onto your URL search bar:
     `http://localhost:4567/getlinks`
 5. You should see the following on your browser:
-    ![Web server screenshot](images/web_server_screenshot.png)
+  ![Web server screenshot](images/web_server_screenshot.png)
 6. Type in a URL of your choice into the form and hit submit.
 7. If a Twitter profile is found, this will show up under **Results** heading.
 8. To exit the web server, type `CTRL + C` on your command line.
