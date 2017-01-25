@@ -15,7 +15,8 @@ This server uses **Sinatra** which is a simple web server gem for Ruby. It also 
 2. CD into the cloned repository and run:
 
     `bundle install`
-    --> *This so that you have all the gems / dependencies installed on your particular project.*
+
+    *This so that you have all the gems / dependencies installed on your particular project.*
 
 3. Then run the following command to get the app running:
 
