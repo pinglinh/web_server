@@ -2,7 +2,7 @@
 
 This is a simple web server in which you can specify a URL web link and it will return a Twitter profile if found on the webpage. Please note that this server only looks at the current page of the link provided and not the entire domain e.g. `http://ashwinkachhara.com/contact-3/` will return a Twitter profile link however `http://ashwinkachhara.com/` will not.
 
-This server uses Sinatra which is a simple web server gem for Ruby. It
+This server uses **Sinatra** which is a simple web server gem for Ruby. It also uses the **Nokogiri** gem which can parse HTML and search through it using (in this project's case) CSS selectors.
 
 ##Dependencies / Requirements
 
