@@ -4,12 +4,12 @@ This is a simple web server in which you can specify a URL web link and it will 
 
 This server uses **Sinatra** which is a simple web server gem for Ruby. It also uses the **Nokogiri** gem which can parse HTML and search through it using (in this project's case) CSS selectors.
 
-##Dependencies / Requirements
+## Dependencies / Requirements
 
 * Bundler 1.13.6 (latest)
 * Ruby 2.3.0
 
-##How to use?
+## How to use?
 
 1. Clone this repository to your local machine (I usually do this to desktop for easier navigation)
 2. CD into the cloned repository and run:
